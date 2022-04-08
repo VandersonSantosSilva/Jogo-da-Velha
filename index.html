@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="jv.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Nutrição é diversão</h1>
+    <h5>(Couve X Melancia)</h5>
+
+    <div class="conteiner">
+
+        <div class="linhas">
+            <div id="0" class="bloco"></div>
+            <div id="1" class="bloco"></div>
+            <div id="2" class="bloco"></div>
+        </div>
+
+        <div class="linhas">
+            <div id="3" class="bloco"></div>
+            <div id="4" class="bloco"></div>
+            <div id="5" class="bloco"></div>
+        </div>
+
+        <div class="linhas">
+            <div id="6" class="bloco"></div>
+            <div id="7" class="bloco"></div>
+            <div id="8" class="bloco"></div>
+        </div>
+    </div>
+
+    <input type="button" value="Reiniciar Tabuleiro" onclick="reset()">
+    <input type="button" value="Reiniciar Jogo" onclick="resetJG()">
+
+    <div class="placar">
+        <label for="placar">Placar:</label>
+        <div id="placar">Couve ( ) X ( ) Melancia</div>
+    </div>
+
+    <script src="game.js"></script>
+    <script src="interface.js"></script>
+</body>
+</html>
