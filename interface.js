@@ -40,7 +40,7 @@ function selecionar(event){
                 pl.innerHTML = `Couve ( ${ml+1} ) X ( ${cv} ) Melancia`
                 ml+=1
 
-            },2000)
+            },1000)
 
         }else{
             
@@ -60,7 +60,7 @@ function selecionar(event){
 
                 pl.innerHTML = `Couve ( ${ml} ) X ( ${cv+1} ) Melancia`
                 cv+=1
-            },2000)
+            },1000)
         }
     }
 

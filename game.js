@@ -71,7 +71,7 @@ function vencedor(){
                 blocos.forEach((limpar)=>{
                     limpar.innerHTML = ""
                 })
-            },2000)
+            },1000)
         }
     }
 
@@ -92,5 +92,4 @@ function reset(){
 
 function resetJG(){
     location.reload()
-
 }
